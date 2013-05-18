@@ -286,9 +286,14 @@ article img.large {
     border: 5px solid #fff;
     float: right;
     margin: 0 -5em 2em 2em;
-    width: 60%;
+    width: 50%;
 }
 
+article img.logo {
+    float: left;
+    margin: 1em;
+    width: 10%;
+}
 
 h2 {
     margin-left: -1em;
