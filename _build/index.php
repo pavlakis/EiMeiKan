@@ -14,7 +14,7 @@ use EiMeiKan\Events\Events;
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Ei Mei Kan Dojo | Leicester Aikido Club | United Kindgom Aikikai</title>
         <meta name="description" content="Ei Mei Kan is a UKA dojo based in Leicester and teaching traditional aikido.">
-        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, faircharm trading estate" />
+        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, faircharm trading estate, アドーニ" />
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/aikido.css?v=2">
@@ -65,6 +65,9 @@ use EiMeiKan\Events\Events;
                     <p>
                         Follow us on Twitter <a href="http://www.twitter.com/EiMeiKanDojo">@EiMeiKanDojo</a> 
                     </p>
+	           <p>
+			Like us on <a href="https://www.facebook.com/EiMeiKan">Facebook</a>
+		   </p>
   
                 </div>
             </article>
@@ -102,7 +105,12 @@ use EiMeiKan\Events\Events;
                                 Complete this <a href="docs/UKA_Membership_Form_2011_EiMeiKan.pdf">membership form</a> 
                                 and give it to the instructor together with your payment. If you're paying by cheque, it will need to be payable to "Renshinkan Affiliations".
                             </p>
-                        </li>                      
+                        </li>
+			<li>
+			    <p>What's in a name?</p>
+			    <p>Aikido clubs normally receive their name by their instructor. In our case, we were given our dojo name: Ei Mei Kan (written: 栄明館 in kanji) by <a href="https://www.facebook.com/PhilipSmith6thDanShihan">Philip Smith shihan</a> from <a href="http://www.aikidodudley.org.uk/">Ren Shin Kan</a> dojo.</p>
+			    <p>In Japanese, words may be pronounced the same (and written the same way in English) but according to their kanji they have a different meaning. Ei Mei Kan loosely translates as house/school of glorious honor, with the kanji 栄明 - to mean - glorious honor, and 館 - house/school. </p>
+			</li>                      
                     </ul>
                         
 
@@ -117,12 +125,12 @@ use EiMeiKan\Events\Events;
                     
                     <p>Antonis started Aikido at De Montfort University Aikido Club under the instruction of Dave Lenton sensei. In 1999, Dave Lenton sensei (4th dan) passed the club to Terry Mickowski sensei (4th dan) with whom he has been training ever since.</p>
                     <p>
-                        In 2009, when he received his teaching qualifications be became an assistant coach at DMU.
+                        In 2009, when he received his teaching qualifications be became an assistant instructor at the DMU Aikido club.
                     </p>
                     <p>He often travels abroad to attend aikido classes and over the years has practiced with 
                     J. C. Aegerter shihan, N. Tamura shihan, C. Tissier shihan, Ian Grubb shidoin,  Y. Kobayashi shihan, as well as the present Doshu.</p>
 
-                    <p>He gets regular tuition from Philip Smith shihan (6th dan) from Ren Shin Kan dojo and other UKA shihan and shidoin.</p>                    
+                    <p>He gets regular tuition from Philip Smith shihan (6th dan) from Ren Shin Kan dojo and other aikikai instructors.</p>                    
                 </div>
             </article>
             <article id="events">
@@ -215,6 +223,9 @@ use EiMeiKan\Events\Events;
                         <li>
                             <p><a href="http://www.ninecircles.co.uk/">Nine Circles</a></p>
                         </li>
+			<li>
+			    </p><a href="http://www.martialartsuperstore.com/">Martial Art Superstore - Leicester</a></p>
+			</li>
                     </ul>
                 </div>
             </article>
