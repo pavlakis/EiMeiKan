@@ -1,3 +1,9 @@
+<?php
+require_once '../vendor/autoload.php';
+
+use EiMeiKan\Events\Events;
+
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -122,20 +128,56 @@
             <article id="events">
                 <div>
                     <h2>Events</h2>
-                    <p>The UKA organises events both nationally and internationally.</p>
-                    <p>The next event is the UKA Summerschool 2013, on Saturday 17th August to Friday 23rd August at:  </p>
-                    <address>
-                        Harper Adams University College <br />
-                        Newport<br />
-                        TF10 8NB <br />
-                        Shropshire
-                    </address>
+                    <?php
+                        $eventsData = json_decode(file_get_contents('../data/events.json'), true);
+
+                        $events = new Events($eventsData);
+                        $event = $events->getNextAvailableEvent();
+                        
+                        if (!$event->isEmpty()) {
+                    ?>
                     
-                    <p>
-                        <a href="http://www.ukaonline.org.uk/UKA/index.php?option=com_eventlist&view=details&id=169">
-                            More info
-                        </a>
-                    </p>
+                        <p><?php echo $event->getFromDate(), ' at ' . $event->getStartTime(); ?></p>
+                        <p>
+                            <?php 
+                            echo $event->getName() . ', with '; 
+                            echo implode(', ', $event->getInstructors());
+                            ?>
+                        
+                        </p>
+
+                        <address>
+                            <?php
+                                echo $event->getDojo() . '<br />';
+                                foreach ($event->getAddress() as $line) {
+                                    echo $line . '<br />' . "\n";
+                                }
+                            ?>
+                        </address>
+
+                        <p>
+                            <?php
+                                echo $event->getDescription();
+                            ?>
+                        </p>                  
+
+                        <?php 
+                         if ($event->getUrl() !== null) {
+                        ?>
+                        <p>
+                            <a href="<?php echo $event->getUrl(); ?>">
+                                More info
+                            </a>
+                        </p>
+                    <?php
+                        }
+                    } else { // event exists
+                    ?>
+                        
+                        <p>Check the <a href="http://www.ukaonline.org.uk/UKA/index.php?option=com_content&view=article&id=106&Itemid=61">UKA site</a> for a list of events. </p>    
+                    <?php    
+                    }
+                    ?>
                         
                 </div>
             </article>
