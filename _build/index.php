@@ -14,7 +14,7 @@ use EiMeiKan\Events\Events;
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Ei Mei Kan Dojo | Leicester Aikido Club | United Kindgom Aikikai</title>
         <meta name="description" content="Ei Mei Kan is a UKA dojo based in Leicester and teaching traditional aikido.">
-        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, faircharm trading estate, アドーニ" />
+        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, JAC, Joint Aikikai Council, faircharm trading estate, アドーニ" />
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/aikido.css?v=2">
