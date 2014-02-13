@@ -109,7 +109,7 @@ use EiMeiKan\Events\Events;
 			<li>
 			    <p>What's in a name?</p>
 			    <p>Aikido clubs normally receive their name by their instructor. In our case, we were given our dojo name: Ei Mei Kan (written: 栄明館 in kanji) by <a href="https://www.facebook.com/PhilipSmith6thDanShihan">Philip Smith shihan</a> from <a href="http://www.aikidodudley.org.uk/">Ren Shin Kan</a> dojo.</p>
-			    <p>In Japanese, words may be pronounced the same (and written the same way in English) but according to their kanji they have a different meaning. Ei Mei Kan loosely translates as house/school of glorious honor, with the kanji 栄明 - to mean - glorious honor, and 館 - house/school. </p>
+			    <p>In Japanese, words may be pronounced the same (and written the same way in English) but according to their kanji they have a different meaning. Ei Mei Kan means House of Central Light, and with the actual kanji loosely translates as house/school of glorious honor, with the kanji 栄明 - to mean - glorious honor, and 館 - house/school. </p>
 			</li>                      
                     </ul>
                         
@@ -121,7 +121,7 @@ use EiMeiKan\Events\Events;
                 <div>
                     <h2>Instructors</h2>
                     <img src="img/Antonis_Pavlakis.jpg" />
-                    <p>Antonios Pavlakis 1st dan (shodan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (CL1) through the British Aikido Board (BAB).</p>
+                    <p>Antonios Pavlakis 1st dan (shodan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (CL1) through the Joint Aikikai Council (JAC).</p>
                     
                     <p>Antonis started Aikido at De Montfort University Aikido Club under the instruction of Dave Lenton sensei. In 1999, Dave Lenton sensei (4th dan) passed the club to Terry Mickowski sensei (4th dan) with whom he has been training ever since.</p>
                     <p>
@@ -196,11 +196,6 @@ use EiMeiKan\Events\Events;
 
                         <li>
                             <p><a href="http://www.ukaonline.org.uk/">United Kingdom Aikikai</a></p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="http://www.bab.org.uk/">British Aikido Board</a>
-                            </p>
                         </li>
                         <li>
                             <p><a href='http://www.aikikai.or.jp/eng/'>Aikikai Foundation</a></p>
@@ -296,7 +291,6 @@ use EiMeiKan\Events\Events;
                     <div>
                         <img class="logo" src='img/UKA_logo.jpeg' />
                         <img class="logo" src='img/RenShinKan_Logo.jpg' />
-                        <img class="logo" src='img/bab_logo.jpg' />
                         
                     <div>
                     <div style='clear:both;' ></div>
