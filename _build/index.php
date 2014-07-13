@@ -3,6 +3,15 @@ require_once '../vendor/autoload.php';
 
 use EiMeiKan\Events\Events;
 
+$dojoName = "Ei Mei Kan Aikido Dojo";
+$smallName = "栄明館";
+
+if (stripos($_SERVER['REQUEST_URI'], 'leicester') !== false) {
+ $dojoName = 'Leicester Aikido Dojo';
+ $smallName = "JAC";
+}
+
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -16,14 +25,14 @@ use EiMeiKan\Events\Events;
         <meta name="description" content="Ei Mei Kan is a UKA dojo based in Leicester and teaching traditional aikido.">
         <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, JAC, Joint Aikikai Council, faircharm trading estate, アドーニ" />
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/aikido.css?v=2">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/aikido.css?v=2">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <div class="org">United Kingdom Aikikai</div>
         <header>
-        <h1><span>栄明館</span>Ei Mei Kan Aikido</h1>
+        <h1><span><?php echo $smallName; ?></span><?php echo $dojoName; ?></h1>
             
             <nav>
                 <ul>
@@ -75,7 +84,7 @@ use EiMeiKan\Events\Events;
                 <div>
                     <h2>Beginners</h2>
                     <p>
-                        If you are interested to try aikido, come along on one of our classes. The first class if FREE!                      
+                        If you are interested to try aikido, come along on one of our classes. The first class is FREE!                      
                     </p>
                     <p>
                         Wear loose clothing like a t-shirt and jogging bottoms.
