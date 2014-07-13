@@ -2,7 +2,7 @@
 require_once '../vendor/autoload.php';
 
 use EiMeiKan\Events\Events;
-use EiMeiKan\Announcement;
+use EiMeiKan\Events\Announcement;
 
 $dojoName = "Ei Mei Kan Aikido Dojo";
 $smallName = "栄明館";
@@ -11,6 +11,14 @@ if (stripos($_SERVER['REQUEST_URI'], 'leicester') !== false) {
  $dojoName = 'Leicester Aikido Dojo';
  $smallName = "JAC";
 }
+
+$startDate = \DateTime::createFromFormat('d.m.Y H:i:s', '13.07.2014 00:00:00');
+$endDate = \DateTime::createFromFormat('d.m.Y H:i:s', '01.08.2014 00:00:00');
+
+$announcementMsg = "Closed July 18th - August 1st";
+$defaultMsg = "United Kingdom Aikikai";
+
+$announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaultMsg);
 
 
 ?>
@@ -31,7 +39,7 @@ if (stripos($_SERVER['REQUEST_URI'], 'leicester') !== false) {
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <div class="org">United Kingdom Aikikai</div>
+        <div class="org"><?php echo $announcement; ?></div>
         <header>
         <h1><span><?php echo $smallName; ?></span><?php echo $dojoName; ?></h1>
             

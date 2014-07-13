@@ -1,11 +1,7 @@
 <?php
-/**
- * @copyright All Contents (c) 2014 Jadu Ltd.
- * @author Jadu Ltd.
- */ 
 
-namespace EiMeiKan\Announcement;
-
+namespace EiMeiKan\Events;
+use \DateTime;
 
 class Announcement
 {
