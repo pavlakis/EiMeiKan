@@ -2,6 +2,7 @@
 require_once '../vendor/autoload.php';
 
 use EiMeiKan\Events\Events;
+use EiMeiKan\Announcement;
 
 ?>
 <!DOCTYPE html>
