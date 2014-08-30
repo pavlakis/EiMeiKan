@@ -13,9 +13,9 @@ if (stripos($_SERVER['REQUEST_URI'], 'leicester') !== false) {
 }
 
 $startDate = \DateTime::createFromFormat('d.m.Y H:i:s', '13.07.2014 00:00:00');
-$endDate = \DateTime::createFromFormat('d.m.Y H:i:s', '01.08.2014 00:00:00');
+$endDate = \DateTime::createFromFormat('d.m.Y H:i:s', '22.08.2014 00:00:00');
 
-$announcementMsg = "Closed July 18th - August 1st";
+$announcementMsg = "Closed July 18th - August 22nd";
 $defaultMsg = "United Kingdom Aikikai";
 
 $announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaultMsg);
@@ -139,7 +139,7 @@ $announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaul
                 <div>
                     <h2>Instructors</h2>
                     <img src="img/Antonis_Pavlakis.jpg" />
-                    <p>Antonios Pavlakis 1st dan (shodan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (CL1) through the Joint Aikikai Council (JAC).</p>
+                    <p>Antonios Pavlakis 2nd dan (nidan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (CL1) through the Joint Aikikai Council (JAC).</p>
                     
                     <p>Antonis started Aikido at De Montfort University Aikido Club under the instruction of Dave Lenton sensei. In 1999, Dave Lenton sensei (4th dan) passed the club to Terry Mickowski sensei (4th dan) with whom he has been training ever since.</p>
                     <p>
