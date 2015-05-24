@@ -32,7 +32,7 @@ $announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaul
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Ei Mei Kan Dojo | Leicester Aikido Club | United Kindgom Aikikai</title>
         <meta name="description" content="Ei Mei Kan is a UKA dojo based in Leicester and teaching traditional aikido.">
-        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, JAC, Joint Aikikai Council, faircharm trading estate, アドーニ" />
+        <meta name="keywords" content="Leicester, Aikido, Aikikai, Ren Shin Kan, Ei Mei Kan, Antonis, Pavlakis, Adoni, sensei, Antonios Pavlakis, Terry, Mickowski, Philip Smith, UKA, hombu, self-defence, martial art, dmu, de montfort university, JAC, Joint Aikikai Council, faircharm trading estate, アドーニ" />
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/css/normalize.min.css">
         <link rel="stylesheet" href="/css/aikido.css?v=2">
@@ -139,9 +139,9 @@ $announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaul
                 <div>
                     <h2>Instructors</h2>
                     <img src="img/Antonis_Pavlakis.jpg" />
-                    <p>Antonios Pavlakis 2nd dan (nidan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (CL1) through the Joint Aikikai Council (JAC).</p>
+                    <p>Antonios Pavlakis 2nd dan (nidan so-Hombu) has been studying aikido since 1997 and has a Sports England teaching qualification (Coaching Level 2) through the Joint Aikikai Council (JAC).</p>
                     
-                    <p>Antonis started Aikido at De Montfort University Aikido Club under the instruction of Dave Lenton sensei. In 1999, Dave Lenton sensei (4th dan) passed the club to Terry Mickowski sensei (4th dan) with whom he has been training ever since.</p>
+                    <p>Adoni started Aikido at De Montfort University Aikido Club under the instruction of Dave Lenton sensei. In 1999, Dave Lenton sensei (4th dan) passed the club to Terry Mickowski sensei (4th dan) with whom he has been training ever since.</p>
                     <p>
                         In 2009, when he received his teaching qualifications be became an assistant instructor at the DMU Aikido club.
                     </p>
@@ -200,7 +200,7 @@ $announcement = new Announcement($startDate, $endDate, $announcementMsg, $defaul
                     } else { // event exists
                     ?>
                         
-                        <p>Check the <a href="http://www.ukaonline.org.uk/UKA/index.php?option=com_content&view=article&id=106&Itemid=61">UKA site</a> for a list of events. </p>    
+                        <p>Check the <a href="https://ukaonline.org.uk/events/">UKA site</a> for a list of events. </p>    
                     <?php    
                     }
                     ?>
